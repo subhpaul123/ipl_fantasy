@@ -1,0 +1,191 @@
+### General ###
+# Node.js and npm
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Gradle
+.gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### Java ###
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# IDEs and Editor-specific files
+## Eclipse
+.metadata/
+bin/
+*.log
+*.classpath
+*.project
+*.settings/
+# .project and .classpath are Eclipse specific, don't track them
+
+## IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+## NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+## VS Code
+.vscode/
+
+## STS (Spring Tool Suite)
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### macOS ###
+# macOS Finder files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+### Windows ###
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+### Linux ###
+# Linux-specific
+*.swp
+*~
+
+### Gradle ###
+# Gradle Wrapper
+.gradle/
+build/
+
+# Logs
+*.log
+
+# Gradle specific
+dependency-reduced-pom.xml
+*.lock
+
+### OS generated files ###
+# Windows Installer files
+Thumbs.db
+ehthumbs.db
+
+# Ubuntu user directories
+.Trash-*
+
+### JetBrains ###
+# JetBrains specific files
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### IntelliJ ###
+# User-specific and IDE-specific files in IntelliJ IDEA
+.idea/
+*.iml
+
+### Visual Studio ###
+.vs/
+
+### .NET ###
+.vs/
+bin/
+obj/
+packages/
+
+### Python ###
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+db.sqlite3
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+### Logs ###
+# Log files
+*.log
+
+### Secrets ###
+secrets.yml
+config/secrets.yml
+
+### Environment ###
+# Virtualenv
+venv/
+.env/
+
+### Compiled binaries ###
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+
+### Backup files ###
+*.bak
+*.swp
+*.swo
+
+### Temporary files ###
+*.tmp
+*.temp
+
+### Application build directories ###
+bin/
+build/
+out/
+dist/
+target/
+tmp/
+temp/
+
+### JDK files ###
+*.class
+*.jar
+*.war
+*.ear
+
+### Other ###
+*.log
+*.tgz
+*.gzip
+*.zip
+*.tar
+*.tar.gz
+*.tar.bz2
+*.dmg
+*.iso
+*.cab
+*.7z
+*.rar
+*.xz
